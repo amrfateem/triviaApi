@@ -18,8 +18,6 @@ function App() {
         });
         setQuestionsAndAnswers(updatedQuestions);
       });
-
-    document.getElementById("check").classList.remove("hidden");
   }, []);
 
   const handleChange = () => {
